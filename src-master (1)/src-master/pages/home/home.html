@@ -15,41 +15,43 @@
  
 
 
+<img src="" alt="" id="dynamicImg" />
 <button onclick="isTheTemp48()">Is the temperature 48 Degrees and below?</button>
 
 <script>
 function isTheTemp48() {
-    document.getElementById("demo").innerHTML = "Since its a colder time the fish will be deep so jigs and deep diving crackbaits will work best. Stick with bright colors when fish are deep, deeper the water the darker the enviroment gets. Since bass are sluggish during these times a slow presentation is usually the best way to get their attention without shock.";	
+    document.getElementById("demo").innerHTML = "Since its a colder time the fish will be deep so jigs and deep diving crackbaits will work best. Stick with bright colors when fish are deep, deeper the water the darker the enviroment gets. Since bass are sluggish during these times a slow presentation is usually the best way to get their attention without shock.";  
+
+    //("button").click(function(){
+       //("p").remove();
+
+    var x = document.getElementById("dynamicImg");
+    x.setAttribute("src", "3073349388_27be2e9a77_o.jpg");
+    x.setAttribute("width", "1000");
+    x.setAttribute("height", "1000");
+    x.setAttribute("alt", "The Pulpit Rock");
 }
 </script>
- 
 
 <button onclick="isTheTemp48_55()">Is the temperature between 48 and 55 Degrees?</button>
 
-
-
 <script>
 function isTheTemp48_55() {
-    document.getElementById("demo").innerHTML = "Since its starting to warm up Bass will start to move into more shallow water. They wont be too shallow, ";	
+    document.getElementById("demo").innerHTML = "Since its starting to warm up Bass will start to move into more shallow water. They wont be too shallow, ";
+
+    var x = document.getElementById("dynamicImg");
+    x.setAttribute("src", "Jackie-chan-meme.jpg");
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+    x.setAttribute("alt", "The Pulpit Rock");
+
 }
 </script>
- 
- 
- 
- 
- 
-
 <button onclick="isTheTemp55_70()">Is the temperature between 48 and 55 Degrees?</button>
-
 <p id="demo"></p>
-
-
 <script>
-function isTheTemp55_70() {
-    document.getElementById("demo").innerHTML = "55-70 ";	
-}
+    function isTheTemp55_70() {
+        document.getElementById("demo").innerHTML = "55-70 ";   
+    }
 </script>
-  
-  
-
 </ion-content>
