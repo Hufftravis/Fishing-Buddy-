@@ -69,19 +69,17 @@ function isTheTemp55_70() {
 }
 </script>
   
-  <button onclick="isTheTemp()">Is the temperature between 70 and 75 Degrees??</button>
+  <button onclick="isTheTemp70_75()">Is the temperature between 70 and 75 Degrees??</button>
 
 <script>
 function isTheTemp70_75() {
-    document.getElementById("demo").innerHTML = "test test";	
-}
-</script>
-
-  <button onclick="isTheTempwhat()">Is the temperature between 75 and 90 Degrees?</button>
-
-<script>
-function isTheTemp75_90() {
-    document.getElementById("demo").innerHTML = "test test1";	
+    document.getElementById("demo").innerHTML = "Post spawn time can make things tough. This is a real tough time to pattern bass. Try to target either the fish that spawned earliest and are moving out toward their summer digs, or the late bedders. When bass leave their beds, they're likely to hang around their spawning grounds awhile. Cover that's sticking up vertically from the bottom is very important now. They'll hang around boat dock pilings, submerged bushes or the trunk of a standing tree. You'll often see bass suspending near the surface now, looking like they're sunning themselves. Most bass are not very aggressive and won't feed much right after spawning, but they can be tempted to bite a reaction-type lure. Senkos, plastic worms and other lures that can go through cover while avoiding a snag. Color is again natural.";
+	
+	var x = document.getElementById("dynamicImg");
+    x.setAttribute("src", "senko.jpg");
+    x.setAttribute("width", "350");
+    x.setAttribute("height", "250");
+    x.setAttribute("alt", "Crankbait");
 }
 </script>
 
@@ -99,8 +97,29 @@ function isTheTemp75_90() {
 	
 	
 }
+
+</script>
+
+  <button onclick="isTheTemp75_55()">Is the temperature between 75 and 55 (fall) Degrees?</button>
+
+<script>
+function isTheTemp75_55() {
+    document.getElementById("demo").innerHTML = "Bass are more baitfish-oriented now than in any other season. Look for large schools of shad, alewives, etc., on your graph. In reservoirs, cooling water causes vast numbers of shad to migrate into tributary arms, and bass are close behind. Follow this migration by fishing the first third of creek arms in early fall, then gradually pressing farther back into the tributary as the surface temperature drops. I'll often idle my boat up a creek arm, watching my graph for suspended shad schools or looking for bait flipping on the surface. Isolated wood cover or boat docks in the backs of creek arms are dependable fall bass patterns. In lakes that don't have shad, bass feed heavily on bluegill and shiners, both grass-oriented species, so target weedy areas. Natural color is important, you must look and act like a baitfish. Acting wounded is good as well.";	
+	
+	
+	var x = document.getElementById("dynamicImg");
+    x.setAttribute("src", "jerkbait.jpg");
+    x.setAttribute("width", "350");
+    x.setAttribute("height", "250");
+    x.setAttribute("alt", "Grub");
+}
 </script>
 
 
 
 <p id="demo"></p>
+
+
+
+
+</ion-content>
